@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* navbar index styling */
+
+.navbar {
+    position: fixed;
+    width: 1400px;
+    font-family: cursive;
+    background-color: darkred;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 15px 0;
+    background-size: cover;
+}
+
+.navbar .logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.navbar .logo a span {
+    color: gold;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar .menu li a:hover {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+
+/* dropdown index styling */
+
+.navbar .menu li .dropdown {
+    display: none;
+}
+
+.navbar .menu li:hover .dropdown {
+    display: block;
+    background-color: darkred;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.navbar .menu li:hover .dropdown li {
+    display: block;
+}
+
+
+/* home styling index */
+
+.home {
+    display: flex;
+    background: url(img/gambar8.jpg);
+    height: 100vh;
+    color: #ffffff;
+    min-height: 500px;
+    font-family: sans-serif;
+    padding: 0px 77px;
+    background-size: cover;
+    background-position: 0 -200px;
+}
+
+.home .max-widht {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 35px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: #ffffff;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: gold;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 6px;
+    border: 2px solid gold;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.home .home-content a:hover {
+    background: none;
+    color: gold;
+}
+
+
+/* porfolio styling */
+
+.home1 {
+    display: flex;
+    background: url(img/wallpaper.jpg);
+    height: 100vh;
+    color: #ffffff;
+    min-height: 500px;
+    font-family: sans-serif;
+    padding: 0px 77px;
+    background-size: cover;
+    background-position: 0 -200px;
+}
+
+.home1 .max-widht1 {
+    margin: auto 0 auto 40px;
+}
+
+.home1 .home-content1 .bagian-1 {
+    font-size: 27px;
+}
+
+.home1 .home-content1 .bagian-2 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home1 .home-content1 .bagian-3 {
+    font-size: 35px;
+    margin: 5px 0;
+}
+
+.home1 .home-content1 .bagian-3 span {
+    color: gold;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.home1 .home-content1 a {
+    display: inline-block;
+    background: gold;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 6px;
+    border: 2px solid gold;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.home1 .home-content1 a:hover {
+    background: none;
+    color: gold;
+}
+
+
+/* porfolio styling */
+
+.container-porfolio {
+    background-color: #eaeaea;
+    padding-bottom: 200px;
+}
+
+.judul-porfolio {
+    text-align: center;
+    padding: 100px;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 500;
+    color: darkred;
+}
+
+.gambar-porfolio h4 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+
+.gambar-porfolio p {
+    padding-top: 25px;
+    font-family: monospace;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.gambar-porfolio img {
+    float: left;
+    width: 500px;
+    height: 500px;
+    padding: 25px;
+}
+
+.wrapper-porfolio {
+    background-color: burlywood;
+    width: cover;
+    height: auto;
+}
+
+.skill-porfolio {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/* contact styling */
+
+.gambar {
+    width: 1359px;
+    height: 900px;
+    background-image: url(img/holo.jpg);
+    margin-left: -10px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.container-contact {
+    width: 1180px;
+    height: 500px;
+    padding-left: 50px;
+    margin-left: 65px;
+    margin-top: 100px;
+    background: none;
+    border: 1px solid white;
+}
+
+.contact-me .alamat {
+    float: left;
+    color: white;
+}
+
+.contact-me p {
+    float: left;
+    padding-left: 15px;
+    margin-top: -5px;
+    margin-left: 15px;
+    font-family: monospace;
+    font-size: 15px;
+    color: white;
+}
+
+.contact-me2 .telepon {
+    color: white;
+    padding-top: 70px;
+}
+
+.contact-me2 p {
+    padding-left: 42px;
+    padding-top: -70px;
+    color: white;
+}
+
+.contact-me3 .email {
+    color: white;
+    margin-top: 30px;
+}
+
+.contact-me3 p {
+    margin-top: -20px;
+    padding-left: 40px;
+    color: white;
+}
+
+.feedback h3 {
+    float: right;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-top: -215px;
+    margin-right: 150px;
+}
+
+h3 {
+    color: white;
+}
+
+.feedback .form {
+    float: right;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding: 10px;
+    margin-top: -150px;
+    width: 600px;
+    margin-right: 25px;
+    margin-left: -35px;
+}
+
+.form .kolom {
+    padding-left: 168px;
+    padding-bottom: 5px;
+}
+
+
+/*games styling index */
+
+.container {
+    background-image: url(img/back3.jpg);
+    background-size: cover;
+    background-position: 0 -250px;
+}
+
+.games {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.games .tulisan {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 25px 0;
+    color: black;
+}
+
+.games .button {
+    padding: 10px 40px;
+    margin-top: 25px;
+    margin-left: 540px;
+    border-radius: 6px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-bottom: 100px;
+}
+
+.button a {
+    background-color: gold;
+    border: 2px solid gold;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 36px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.games .button a:hover {
+    color: gold;
+    background: none;
+}
+
+
+/* colum sinopsis index */
+
+.wrapper {
+    padding-top: 50px;
+    background-image: url(img/back4.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.judul {
+    font-family: cursive;
+    padding-top: 25px;
+}
+
+.judul .tittle {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: cursive;
+    color: #ffffff;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.colum {
+    width: 300px;
+    height: 300px;
+    background-image: url(img/novel1.jpg);
+    background-position: 0 -150px;
+    background-size: cover;
+    margin-left: 100px;
+    border: 2px solid #ffffff;
+}
+
+.colum p {
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.paragraf p {
+    background: none;
+    width: 290px;
+    height: 400px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin-left: 100px;
+    padding: 10px 0px 10px 10px;
+}
+
+.paragraf p a {
+    background: none;
+    border: 2px solid white;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px 10px 15px;
+}
+
+.paragraf p a:hover {
+    border: 2px solid gold;
+    color: gold;
+}
+
+.colum2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(img/novel2.jpg);
+    background-size: cover;
+    background-position: -50px -300px;
+    margin-left: 525px;
+    margin-top: -668px;
+    border: 2px solid #ffffff;
+}
+
+.colum2 p {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.paragraf2 p {
+    background: none;
+    width: 290px;
+    height: 420px;
+    border: 2px solid #ffffff;
+    margin-left: 525px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.paragraf2 p a {
+    background: none;
+    border: 2px solid white;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px 10px 15px;
+}
+
+.paragraf2 p a:hover {
+    border: 2px solid gold;
+    color: gold;
+}
+
+.colum3 .title {
+    float: right;
+    width: 300px;
+    height: 170px;
+    margin-right: 100px;
+    margin-top: -685px;
+    text-align: center;
+    background-image: url(img/back2.jpg);
+    background-size: cover;
+    background-position: 0 -215px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding-top: 135px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.colum3 .title span {
+    color: gold;
+    padding-top: 135px;
+    font-family: cursive;
+}
+
+.paragraf3 h3 {
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin-right: 100px;
+    margin-top: -380px;
+    background: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.paragraf3 a {
+    float: right;
+    margin-right: 100px;
+    text-align: center;
+}
+
+
+/* about styling */
+
+.content-about {
+    background-image: url(img/foto1.jpg);
+    background-size: cover;
+}
+
+.tema .about-1 {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: cursive;
+    color: black;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.about img {
+    float: left;
+    padding-top: 50px;
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 400px;
+    padding-bottom: 15px;
+}
+
+.about p {
+    padding-top: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: cursive;
+    word-spacing: 5px;
+    line-height: 25px;
+    padding-top: 50px;
+    padding-left: 15px;
+    width: 1290px;
+    padding-bottom: 100px;
+}
+
+
+/* footer styling */
+
+.footer {
+    background-image: url(img/tumbnail.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    padding: 25px;
+    border-top: 2px solid #eaeaea;
+}
+
+.footer p {
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px 15px;
+    color: #ffffff;
+}
+
+.footer h4 {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.profil img {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-top: -200px;
+    margin-right: 100px;
+}
+
+.profil p {
+    float: right;
+    margin-top: -50px;
+    margin-right: 90px;
+    color: #ffffff;
+}
+
+.copy {
+    width: 1289px;
+    height: 25px;
+    background-color: black;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.copy span {
+    color: gold;
+}
+
+.follow h5 {
+    float: right;
+    color: #ffffff;
+    font-family: cursive;
+    margin-top: -25px;
+}
+
+.follow a {
+    float: right;
+    margin-right: 50px;
+    padding: 0px 2px 0px;
+}
